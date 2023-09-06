@@ -49,7 +49,7 @@ def index(ctx: Context):
     user=ctx.current_user.user
     session = ctx.session
     flash = ctx.flash
-    ret = 'You can customise this page by adding any components or functionality you need'
+    ret = 'You can customise this page by adding any components or functionality you need.'
     return dict(msg=ret)
 
 @app.route('about')
